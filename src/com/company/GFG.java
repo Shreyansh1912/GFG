@@ -3,9 +3,8 @@ package com.company;
 // Initial Template for Java
 
 import java.io.*;
-import java.util.*;
 
-class GFG {
+public class GFG {
     public static void main(String[] args) throws IOException {
         BufferedReader br =
                 new BufferedReader(new InputStreamReader(System.in));
@@ -18,7 +17,7 @@ class GFG {
             for (int i = 0; i < n - 1; i++) {
                 array[i] = Integer.parseInt(str[i]);
             }
-            Solution sln = new Solution();
+                Ss1 sln = new Ss1();
             System.out.println(sln.MissingNumber(array, n));
         }
     }
@@ -27,7 +26,7 @@ class GFG {
 
 // User function Template for Java
 
-class Solution {
+class Ss1 {
     int MissingNumber(int array[], int n) {
         int ans=0;
         for(int i=1;i<n+1;i++)
